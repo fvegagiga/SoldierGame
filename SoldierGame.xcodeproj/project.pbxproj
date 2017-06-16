@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095301EB1EF29765002FE0C0 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 095301EA1EF29765002FE0C0 /* Weapon.m */; };
+		095301EE1EF29D77002FE0C0 /* MeleWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 095301ED1EF29D77002FE0C0 /* MeleWeapon.m */; };
+		095301F11EF29F9E002FE0C0 /* FireWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 095301F01EF29F9E002FE0C0 /* FireWeapon.m */; };
+		09B754701EF3DC8300CB2B88 /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B7546F1EF3DC8300CB2B88 /* Pet.m */; };
 		09E8B9981EF11843009FDCB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E8B9971EF11843009FDCB5 /* main.m */; };
+		09E8B9A01EF11EE3009FDCB5 /* Soldier.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E8B99F1EF11EE3009FDCB5 /* Soldier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		095301E91EF29765002FE0C0 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		095301EA1EF29765002FE0C0 /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		095301EC1EF29D77002FE0C0 /* MeleWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeleWeapon.h; sourceTree = "<group>"; };
+		095301ED1EF29D77002FE0C0 /* MeleWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeleWeapon.m; sourceTree = "<group>"; };
+		095301EF1EF29F9E002FE0C0 /* FireWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireWeapon.h; sourceTree = "<group>"; };
+		095301F01EF29F9E002FE0C0 /* FireWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireWeapon.m; sourceTree = "<group>"; };
+		09B7546D1EF3D7CA00CB2B88 /* iAttackable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iAttackable.h; sourceTree = "<group>"; };
+		09B7546E1EF3DC8300CB2B88 /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
+		09B7546F1EF3DC8300CB2B88 /* Pet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
+		09B754711EF3EB5700CB2B88 /* Soldier+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soldier+Internal.h"; sourceTree = "<group>"; };
 		09E8B9941EF11843009FDCB5 /* SoldierGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SoldierGame; sourceTree = BUILT_PRODUCTS_DIR; };
-		09E8B9971EF11843009FDCB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09E8B9971EF11843009FDCB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		09E8B99E1EF11EE3009FDCB5 /* Soldier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soldier.h; sourceTree = "<group>"; };
+		09E8B99F1EF11EE3009FDCB5 /* Soldier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soldier.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,18 @@
 			isa = PBXGroup;
 			children = (
 				09E8B9971EF11843009FDCB5 /* main.m */,
+				09E8B99E1EF11EE3009FDCB5 /* Soldier.h */,
+				09E8B99F1EF11EE3009FDCB5 /* Soldier.m */,
+				09B754711EF3EB5700CB2B88 /* Soldier+Internal.h */,
+				095301E91EF29765002FE0C0 /* Weapon.h */,
+				095301EA1EF29765002FE0C0 /* Weapon.m */,
+				095301EC1EF29D77002FE0C0 /* MeleWeapon.h */,
+				095301ED1EF29D77002FE0C0 /* MeleWeapon.m */,
+				095301EF1EF29F9E002FE0C0 /* FireWeapon.h */,
+				095301F01EF29F9E002FE0C0 /* FireWeapon.m */,
+				09B7546D1EF3D7CA00CB2B88 /* iAttackable.h */,
+				09B7546E1EF3DC8300CB2B88 /* Pet.h */,
+				09B7546F1EF3DC8300CB2B88 /* Pet.m */,
 			);
 			path = SoldierGame;
 			sourceTree = "<group>";
@@ -119,7 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095301EB1EF29765002FE0C0 /* Weapon.m in Sources */,
+				09E8B9A01EF11EE3009FDCB5 /* Soldier.m in Sources */,
+				095301EE1EF29D77002FE0C0 /* MeleWeapon.m in Sources */,
+				09B754701EF3DC8300CB2B88 /* Pet.m in Sources */,
 				09E8B9981EF11843009FDCB5 /* main.m in Sources */,
+				095301F11EF29F9E002FE0C0 /* FireWeapon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +280,7 @@
 				09E8B99D1EF11843009FDCB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
